@@ -44,6 +44,6 @@ int main()
     cout<<"USN is:-"<<s.getstudentusn()<<endl;
     cout<<"Heghit is:-"<<s.getheight()<<"cm"<<endl;
     cout<<"weghit is:-"<<s.getweight()<<"kg"<<endl;
-    cout<<
+    cout<<" ";
     return 0;
 }
