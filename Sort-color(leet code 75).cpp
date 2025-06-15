@@ -8,7 +8,7 @@ public:
 
     while(mid<=hi){
     if(nums[mid]==2){
-int iintnt temp=nums[mid];
+int int temp=nums[mid];
         nums[mid]=nums[hi];
         nums[hi]=temp;
         hi--;
