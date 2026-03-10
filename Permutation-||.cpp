@@ -21,3 +21,5 @@ public:
         return ans;
     }
 };
+//TC:O(n)
+//SP:O(n)
