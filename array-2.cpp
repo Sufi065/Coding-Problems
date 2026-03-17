@@ -47,3 +47,5 @@ int main()
     cout<<" ";
     return 0;
 }
+//TC:O(1)
+//SP:O(1)
