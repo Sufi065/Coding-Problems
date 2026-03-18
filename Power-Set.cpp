@@ -33,3 +33,5 @@ int main()
     
     return 0;
 }
+//TC:O(n^2)
+//SP:O(n)
