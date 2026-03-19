@@ -25,3 +25,5 @@ int main()
         cout<<output[i]<<endl;
     return 0;
 }
+//TC:O(n)
+//SP:O(n)
