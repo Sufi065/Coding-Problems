@@ -61,4 +61,6 @@ void pair(){
     cout<<p.first<<" "<<p.second;
   
 }
+//TC:O(n)
+//SP:O(n)
 
