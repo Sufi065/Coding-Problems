@@ -1,3 +1,5 @@
+//TC:O(1)
+//SP:O(1)
 #include<iostream>
 using namespace std;
 
