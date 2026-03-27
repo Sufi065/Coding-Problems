@@ -26,3 +26,5 @@ int int temp=nums[mid];
         return;
     }
 };
+//TCO(n)
+//SP:O(1)
