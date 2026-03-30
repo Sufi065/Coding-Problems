@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <queue>
 using namespace std;
 
 void power(int index,int n,int arr[],vector<vector<int>>&ans,vector<int>curr){
@@ -15,7 +16,7 @@ void power(int index,int n,int arr[],vector<vector<int>>&ans,vector<int>curr){
 
 int main() 
 {
-    int n;
+    int n,m;
     cin>>n;
     int *arr=new int[n];
     for(int i=0;i<n;i++)
