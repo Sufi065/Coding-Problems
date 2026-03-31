@@ -24,4 +24,6 @@ public:
         
     }
 };
+//TC:O(n)
+SP:O(n)
 
