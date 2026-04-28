@@ -41,5 +41,5 @@ public:
         return result;
     }
 };
-O(n)
+TC:O(n)
 
