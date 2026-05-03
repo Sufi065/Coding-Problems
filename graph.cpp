@@ -7,3 +7,6 @@ Graph(int data){
 this.data=data;
 }
 }
+int main(){
+return 0
+}
