@@ -1,4 +1,5 @@
 #includ<iostream>
+#includ<vector>
 class Solution {
 public:
     int trap(vector<int>& height) {
