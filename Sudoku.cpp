@@ -1,3 +1,4 @@
+#includ<iostream>
 class Solution {
 public:
   bool issafe(char val,int row,int col,vector<vector<char>> &board){
