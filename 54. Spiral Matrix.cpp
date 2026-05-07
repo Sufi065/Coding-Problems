@@ -33,6 +33,7 @@ public:
     }
 };
 int main(){
+Solution();
 }
 //TC:O(m*n)
 //SP:O(1)
