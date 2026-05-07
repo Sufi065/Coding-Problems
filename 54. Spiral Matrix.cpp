@@ -32,6 +32,8 @@ public:
         return ans;
     }
 };
+int main(){
+}
 //TC:O(m*n)
 //SP:O(1)
 
