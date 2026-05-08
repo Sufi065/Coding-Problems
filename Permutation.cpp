@@ -21,5 +21,7 @@ public:
         
     }
 };
+int main(){
+}
 TC:O(n)
 SP:O(1)
