@@ -43,6 +43,8 @@ public:
         return result;
     }
 };
+int main(){
+}
 TC:O(n)
 SP:O(n)
 
