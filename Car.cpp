@@ -44,6 +44,8 @@ public:
     }
 };
 int main(){
+Car car;
+car();
 }
 TC:O(n)
 SP:O(n)
