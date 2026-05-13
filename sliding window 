@@ -1,0 +1,28 @@
+#include <vector>
+#include <numeric>
+#include <algorithm>
+
+using namespace std;
+
+class Solution {
+public:
+    double findMaxAverage(vector<int>& nums, int k) {
+        // Step 1: Initialize the first window sum
+        // accumulate(start, end, initial_value)
+        double current_sum = accumulate(nums.begin(), nums.begin() + k, 0.0);
+        double max_sum = current_sum;
+
+        // Step 2: Slide the window from index k to the end of the array
+        for (int i = k; i < nums.size(); i++) {
+            // Add the element entering the window (nums[i])
+            // Subtract the element leaving the window (nums[i - k])
+            current_sum += nums[i] - nums[i - k];
+            
+            // Track the maximum sum found
+            max_sum = max(max_sum, current_sum);
+        }
+
+        // Step 3: Return the average
+        return max_sum / k;
+    }
+};
