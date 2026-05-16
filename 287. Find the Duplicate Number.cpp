@@ -19,6 +19,8 @@ public:
         
     }
 };
+int main(){
+return 0;}
 //TC:O(n)
 //sc:O(1)
 
