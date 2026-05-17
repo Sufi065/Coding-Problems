@@ -20,6 +20,8 @@ public:
     }
 };
 int main(){
+Solution s1;
+s1();
 return 0;}
 //TC:O(n)
 //sc:O(1)
