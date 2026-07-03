@@ -26,3 +26,4 @@ public:
         
     }
 };
+TC:O(n)
